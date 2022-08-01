@@ -13,7 +13,7 @@ import {
 } from "chart.js";
 import "chartjs-adapter-luxon";
 import { Line } from "react-chartjs-2";
-import { GqlChartProps } from "../../types/types";
+import { GqlChartProps } from "../../../types/types";
 import { useQuery } from "@apollo/client";
 import ChartStreaming from "chartjs-plugin-streaming";
 

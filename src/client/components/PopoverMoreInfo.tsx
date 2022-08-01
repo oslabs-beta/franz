@@ -3,7 +3,7 @@ import Popover from "@mui/material/Popover";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
-import { MoreInfoProps } from "../../types/types";
+import { MoreInfoProps } from "../../../types/types";
 
 export default function MoreInfo({ icon, content }: MoreInfoProps) {
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(

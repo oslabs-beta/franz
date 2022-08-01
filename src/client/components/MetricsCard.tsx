@@ -6,7 +6,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 
 import { useQuery } from "@apollo/client";
 
-import { MetricsCardProps } from "../../types/types";
+import { MetricsCardProps } from "../../../types/types";
 
 const keySearch = (obj, string) => {
   for (const key in obj) {

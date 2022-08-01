@@ -7,7 +7,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { validate } from "../utils/validate";
-import { DialogProps } from "../../types/types";
+import { DialogProps } from "../../../types/types";
 import { useMutation } from "@apollo/client";
 
 export default function ConfirmationDialog({

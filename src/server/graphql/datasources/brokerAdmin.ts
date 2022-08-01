@@ -5,7 +5,7 @@ import {
   OngoingTopicReassignment,
   ITopicConfig,
 } from "kafkajs";
-import { Cluster, Broker, ConfigEntries } from "../../../types/types";
+import { Cluster, Broker, ConfigEntries } from "../../../../types/types";
 
 export async function getClusterInfo(): Promise<Cluster> {
   try {

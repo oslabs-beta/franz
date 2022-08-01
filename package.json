@@ -4,6 +4,7 @@
   "description": "Kafka Manager",
   "main": "index.js",
   "sideEffects": false,
+  "types": "types/index.d.ts",
   "scripts": {
     "start": "npm run build && npm run prod",
     "build": "cross-env NODE_ENV=production webpack",

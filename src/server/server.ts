@@ -1,6 +1,6 @@
 import express from "express";
 import path from "path";
-import { DefaultErr } from "../types/types";
+import { DefaultErr } from "../../types/types";
 import { typeDefs } from "./graphql/typeDefs";
 import resolvers from "./graphql/resolvers";
 import { ApolloServer } from "apollo-server-express";
